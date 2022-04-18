@@ -1,8 +1,9 @@
-import { Box, Flex, HStack } from '@chakra-ui/react'
+import { Box, Flex, Heading, HStack } from '@chakra-ui/react'
 import { Banner } from '../components/Banner';
 import { Caracteristicas } from '../components/Caracteristicas';
 import { Header } from '../components/Header'
 import { Separador } from '../components/Separador';
+import { Slider } from '../components/Slider';
 
 export default function Home(){
   return (
@@ -12,6 +13,15 @@ export default function Home(){
     <Banner />
     <Caracteristicas />
     <Separador />
+    <Heading
+    textAlign="center"
+    fontWeight="500"
+    mb={["5", "14"]}
+    fontSize={["lg", "3xl", "4xl"]}
+    >
+      Vamos nessa? <br />Então escolha seu cotinente
+    </Heading>
+    <Slider />
     </Flex>
     
         </>
