@@ -18,7 +18,7 @@ export function Header() {
             <Grid
                 h='100%'
                 mx='auto'
-                w={["81px", "184px"]}
+                w="100%"
                 maxW='1160px'
                 alignItems='center'
                 templateColumns='repeat(3, 1fr)'
@@ -31,7 +31,7 @@ export function Header() {
                         </a>
                     </Link>
                 )}
-                   <Image src='./static/Logo.svg' alt='logo' w={['81px', '184px']}
+                   <Image src='/static/Logo.svg' alt='logo' w={['81px', '184px']}
                     justifySelf='center' gridColumn='2' />
             </Grid>
 
