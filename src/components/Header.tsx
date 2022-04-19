@@ -31,7 +31,7 @@ export function Header() {
                         </a>
                     </Link>
                 )}
-                   <Image src='./static/Logo.png' alt='logo' w={['81px', '184px']}
+                   <Image src='./static/Logo.svg' alt='logo' w={['81px', '184px']}
                     justifySelf='center' gridColumn='2' />
             </Grid>
 
